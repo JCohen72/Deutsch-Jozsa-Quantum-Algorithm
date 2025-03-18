@@ -52,11 +52,11 @@ The goal of the Deutsch-Jozsa algorithm is to determine whether an unknown oracl
    ```
 
 3. **Configure IBM Quantum Account**:
-   - The code includes an example line to save your IBM Quantum Experience token:
+   - The code includes a line to include your IBM Quantum Experience token:
      ```python
-     IBMProvider.save_account('<YOUR_API_TOKEN>', overwrite=True)
+     IBMProvider.save_account('<IBMQ_API_KEY>', overwrite=True)
      ```
-   - Replace `<YOUR_API_TOKEN>` with your actual token from the IBM Quantum dashboard, or comment out these lines if you only want to run on the local simulator.
+   - Replace `<IBMQ_API_KEY>` with your actual token from the IBM Quantum dashboard.
 
 4. **Additional Libraries**:
    - [matplotlib](https://matplotlib.org/) for plotting histograms.
