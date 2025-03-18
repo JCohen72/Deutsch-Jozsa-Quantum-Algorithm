@@ -8,7 +8,7 @@ from qiskit import Aer
 import matplotlib.pyplot as plt
 
 # Configure IBM Quantum Experience account
-IBMProvider.save_account('IBMQ_API_KEY', overwrite=True)
+IBMProvider.save_account('<IBMQ_API_KEY>', overwrite=True)
 provider = IBMProvider()
 
 # Function to create the constant 0 oracle
